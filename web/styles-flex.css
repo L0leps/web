@@ -1,0 +1,126 @@
+/* Общие стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+p {
+    margin: 0;
+}
+
+.rightalign {
+    text-align: right;
+}
+
+.insert{
+  
+    height: 20px;
+    width: 200px;
+    margin: 0 20px;
+    align-self: center;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.text {
+    overflow-y: auto;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для layout */
+.up {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: lightblue;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    background-color: white;
+}
+
+.down {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: lightblue;
+}
+
+.left {
+    background-color: lightsalmon;
+    width: 20vw;
+    padding: 20px;
+}
+
+.left ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+.center-up {
+    height: 10vh;
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.corner {
+    display: flex;
+    height: 50vh;
+}
+
+.corner-left {
+    width: 30%;
+    background-color: lightsalmon;
+    padding: 10px;
+}
+
+.corner-right {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+    align-items: center;
+    background-color: lightsalmon;
+    overflow: hidden;
+    padding: 0;
+}
+
+.corner-right img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: fill; 
+}
